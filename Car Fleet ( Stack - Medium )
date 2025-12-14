@@ -10,8 +10,6 @@ If a car catches up to a car fleet at the mile target, it will still be consider
 
 Return the number of car fleets that will arrive at the destination.
 
-
-
 Example 1:
 
 Input: target = 12, position = [10,8,0,5,3], speed = [2,4,1,1,3]
