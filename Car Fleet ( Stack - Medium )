@@ -33,8 +33,6 @@ Explanation:
 
 There is only one car, hence there is only one fleet.
 
-
-
 Example 3:
 
 Input: target = 100, position = [0,2,4], speed = [4,2,1]
