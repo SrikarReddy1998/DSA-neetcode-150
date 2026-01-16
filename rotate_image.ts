@@ -1,0 +1,24 @@
+ROTATE IMAGE
+
+class Solution {
+    /**
+     * @param matrix
+     * Do not return anything, modify matrix in-place instead.
+     */
+    rotate(matrix: number[][]): void {
+        const n = matrix.length;
+
+        // 1️⃣ Transpose the matrix
+        for (let i = 0; i < n; i++) {
+            for (let j = i; j < n; j++) {
+                [matrix[i][j], matrix[j][i]] =
+                [matrix[j][i], matrix[i][j]];
+            }
+        }
+
+        // 2️⃣ Reverse each row
+        for (let i = 0; i < n; i++) {
+            matrix[i].reverse();
+        }
+    }
+}
