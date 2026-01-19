@@ -1,6 +1,4 @@
 ROTATE IMAGE
-
-
 class Solution {
     /**
      * @param matrix
